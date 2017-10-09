@@ -1,6 +1,7 @@
 package fr.univtln.bruno.tp.tp3;
 
-import fr.univtln.bruno.tp.tp2.animal.Animal;
+
+import fr.univtln.bruno.coursjava.tp.tp2.animal.Animal;
 
 /**
  * The Class AnimalTatoue. Cette classe illustre la redefinition de equal, hashcode,

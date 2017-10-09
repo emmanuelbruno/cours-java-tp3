@@ -1,6 +1,6 @@
 package fr.univtln.bruno.tp.tp3;
 
-import fr.univtln.bruno.tp.tp2.animal.Animal;
+import fr.univtln.bruno.coursjava.tp.tp2.animal.Animal;
 
 import java.util.*;
 
@@ -25,7 +25,7 @@ public class Test {
         //Parcours d'une collection avec un Iterateur
         Iterator<AnimalTatoue> itAnimaux = animaux.iterator();
         while (itAnimaux.hasNext())
-            System.out.println(" #>"+itAnimaux.next());
+            System.out.println(" #>" + itAnimaux.next());
 
         //et avec un foreach
         for (Object a : animaux)
@@ -67,7 +67,7 @@ public class Test {
         //Test de l'existence d'une clé
         System.out.println("Test existence de clé: " + animalTatoueMap.containsKey(new Tatouage("Canidé", 2)));
         //Accès à un élément d'une map via sa clé
-        System.out.println("Recherche par clé: "+animalTatoueMap.get(new Tatouage("Canidé", 2)));
+        System.out.println("Recherche par clé: " + animalTatoueMap.get(new Tatouage("Canidé", 2)));
     }
 
 }

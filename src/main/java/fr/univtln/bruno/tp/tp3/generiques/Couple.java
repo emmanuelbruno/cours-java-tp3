@@ -1,8 +1,9 @@
 package fr.univtln.bruno.tp.tp3.generiques;
 
-import fr.univtln.bruno.tp.tp2.animal.Animal;
-import fr.univtln.bruno.tp.tp2.animal.mammifere.Homme;
-import fr.univtln.bruno.tp.tp2.animal.oiseau.Aigle;
+
+import fr.univtln.bruno.coursjava.tp.tp2.animal.Animal;
+import fr.univtln.bruno.coursjava.tp.tp2.animal.mammifere.Homme;
+import fr.univtln.bruno.coursjava.tp.tp2.animal.oiseau.Aigle;
 
 /**
  * The Class Couple. Cette classe ilustre la création d'une classe générique qui
